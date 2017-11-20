@@ -14,9 +14,9 @@
 		AE0D1D041F7CE362000160DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0D1D031F7CE362000160DB /* Assets.xcassets */; };
 		AE0D1D071F7CE362000160DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0D1D051F7CE362000160DB /* LaunchScreen.storyboard */; };
 		AE0D1D0A1F7CE362000160DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0D1D091F7CE362000160DB /* main.m */; };
+		AEA5EBD61FC2A567003D7BD1 /* KZ_AudioConverterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBD51FC2A567003D7BD1 /* KZ_AudioConverterFramework.framework */; };
 		AEDC0EA81FC1A1CB00752728 /* 001.amr in Resources */ = {isa = PBXBuildFile; fileRef = AEDC0EA71FC1A1CB00752728 /* 001.amr */; };
 		AEDC0EDA1FC1A2C800752728 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC0ED91FC1A28B00752728 /* libc++.tbd */; };
-		AEDC0EEC1FC1A5B400752728 /* KZ_AudioConverterFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC0EEB1FC1A5B400752728 /* KZ_AudioConverterFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,9 +46,9 @@
 		AE0D1D061F7CE362000160DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE0D1D081F7CE362000160DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE0D1D091F7CE362000160DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEA5EBD51FC2A567003D7BD1 /* KZ_AudioConverterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioConverterFramework.framework; sourceTree = "<group>"; };
 		AEDC0EA71FC1A1CB00752728 /* 001.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = 001.amr; sourceTree = "<group>"; };
 		AEDC0ED91FC1A28B00752728 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		AEDC0EEB1FC1A5B400752728 /* KZ_AudioConverterFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioConverterFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEDC0EDA1FC1A2C800752728 /* libc++.tbd in Frameworks */,
-				AEDC0EEC1FC1A5B400752728 /* KZ_AudioConverterFramework.framework in Frameworks */,
+				AEA5EBD61FC2A567003D7BD1 /* KZ_AudioConverterFramework.framework in Frameworks */,
 				32CA8A5B40C118BB480FAC9D /* Pods_KZ_AudioConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,7 +91,7 @@
 				AE0D1CFD1F7CE362000160DB /* ViewController.h */,
 				AE0D1CFE1F7CE362000160DB /* ViewController.m */,
 				AEDC0EA71FC1A1CB00752728 /* 001.amr */,
-				AEDC0EEA1FC1A5B400752728 /* AudioConverter */,
+				AEA5EBD41FC2A567003D7BD1 /* AudioConverter */,
 				AE0D1D001F7CE362000160DB /* Main.storyboard */,
 				AE0D1D031F7CE362000160DB /* Assets.xcassets */,
 				AE0D1D051F7CE362000160DB /* LaunchScreen.storyboard */,
@@ -101,6 +101,14 @@
 			path = KZ_AudioConverter;
 			sourceTree = "<group>";
 		};
+		AEA5EBD41FC2A567003D7BD1 /* AudioConverter */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5EBD51FC2A567003D7BD1 /* KZ_AudioConverterFramework.framework */,
+			);
+			path = AudioConverter;
+			sourceTree = "<group>";
+		};
 		AEDC0ED81FC1A28B00752728 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,14 +116,6 @@
 				1908C8DA0B03234EE61BC899 /* Pods_KZ_AudioConverter.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AEDC0EEA1FC1A5B400752728 /* AudioConverter */ = {
-			isa = PBXGroup;
-			children = (
-				AEDC0EEB1FC1A5B400752728 /* KZ_AudioConverterFramework.framework */,
-			);
-			path = AudioConverter;
 			sourceTree = "<group>";
 		};
 		F899E676FA9CEFD9847D8996 /* Pods */ = {
