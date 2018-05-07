@@ -1,12 +1,16 @@
 PODS:
-  - KZ_AudioPlayer (0.1)
+  - KZ_AudioPlayer (0.1.1)
 
 DEPENDENCIES:
   - KZ_AudioPlayer
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KZ_AudioPlayer
+
 SPEC CHECKSUMS:
-  KZ_AudioPlayer: fa264a026300998963e667f7446360837b3459cc
+  KZ_AudioPlayer: 161fe663edfab2f4a4bcd3014f5220945e6ebee7
 
-PODFILE CHECKSUM: bb53316a407553cec65e6f272545572adcd7cb0b
+PODFILE CHECKSUM: 5476868c85cc8032535c57fcf7818e1e0a0a82b3
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0
