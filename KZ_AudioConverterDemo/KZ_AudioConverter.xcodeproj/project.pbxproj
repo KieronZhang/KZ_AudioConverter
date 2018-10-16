@@ -368,7 +368,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioConverter-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -397,7 +397,7 @@
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-AudioConverter-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.AudioConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
