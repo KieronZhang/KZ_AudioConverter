@@ -14,9 +14,9 @@
 		AEC62DC820A0797300DFC8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEC62DC720A0797300DFC8B9 /* Assets.xcassets */; };
 		AEC62DCB20A0797300DFC8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC62DC920A0797300DFC8B9 /* LaunchScreen.storyboard */; };
 		AEC62DCE20A0797300DFC8B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC62DCD20A0797300DFC8B9 /* main.m */; };
-		AEC62DD420A079B700DFC8B9 /* KZ_AudioConverter_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62DD320A079B700DFC8B9 /* KZ_AudioConverter_iOS.framework */; };
 		AEC62DD620A07A6300DFC8B9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC62DD520A07A6300DFC8B9 /* libc++.tbd */; };
 		AEC62DDA20A07B4C00DFC8B9 /* 001.amr in Resources */ = {isa = PBXBuildFile; fileRef = AEC62DD920A07B4C00DFC8B9 /* 001.amr */; };
+		AEF94D682175E06B0063EE69 /* KZ_AudioConverter_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D672175E06B0063EE69 /* KZ_AudioConverter_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +31,9 @@
 		AEC62DCA20A0797300DFC8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEC62DCC20A0797300DFC8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEC62DCD20A0797300DFC8B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AEC62DD320A079B700DFC8B9 /* KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioConverter_iOS.framework; sourceTree = "<group>"; };
 		AEC62DD520A07A6300DFC8B9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		AEC62DD920A07B4C00DFC8B9 /* 001.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = 001.amr; sourceTree = "<group>"; };
+		AEF94D672175E06B0063EE69 /* KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_AudioConverter_iOS.framework; sourceTree = "<group>"; };
 		C9D1B5AB49E52047CF578FA4 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KZ_AudioConverter_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D39D9EEBFC5CD6ECDB420685 /* Pods_KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KZ_AudioConverter_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -44,7 +44,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC62DD620A07A6300DFC8B9 /* libc++.tbd in Frameworks */,
-				AEC62DD420A079B700DFC8B9 /* KZ_AudioConverter_iOS.framework in Frameworks */,
+				AEF94D682175E06B0063EE69 /* KZ_AudioConverter_iOS.framework in Frameworks */,
 				99BB78484EA968D69C6A02F5 /* Pods_KZ_AudioConverter_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +100,7 @@
 		AEC62DD220A079B700DFC8B9 /* AudioConverter */ = {
 			isa = PBXGroup;
 			children = (
-				AEC62DD320A079B700DFC8B9 /* KZ_AudioConverter_iOS.framework */,
+				AEF94D672175E06B0063EE69 /* KZ_AudioConverter_iOS.framework */,
 			);
 			path = AudioConverter;
 			sourceTree = "<group>";
