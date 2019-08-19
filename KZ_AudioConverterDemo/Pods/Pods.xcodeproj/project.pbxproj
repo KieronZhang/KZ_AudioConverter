@@ -6,197 +6,318 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		04BD26DEDB8BC4F86B86335CC8671A40 /* KZ_AudioPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9E1302028EF39B490576BF90589E2C4 /* Build configuration list for PBXAggregateTarget "KZ_AudioPlayer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = KZ_AudioPlayer;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0DEF569B88AD995931DE712537CF4AD7 /* Pods-KZ_AudioConverter_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F491FD50B13A318AFA14200CC4CF93 /* Pods-KZ_AudioConverter_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		742779582588FFF759D977E06C0A7419 /* Pods-KZ_AudioConverter_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FC7BB4BA9515DD2B474820F46FAE11 /* Pods-KZ_AudioConverter_iOS-dummy.m */; };
-		FD9F448F5C48BC303F32182919FDF5A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		07AA5DE4A46803DC467D83A0A15F2B44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		230669E5DDA94940F47846A68C10536E /* Pods-KZ_AudioConverter_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A5D23D2BA045D83570E6998207A970 /* Pods-KZ_AudioConverter_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB34B8E425C7DD941A39B00C33FF8062 /* Pods-KZ_AudioConverter_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1211AEBEDE78E50EF469F93F6533847 /* Pods-KZ_AudioConverter_iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A27ACF13350CF1C256F3858304247BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD26DEDB8BC4F86B86335CC8671A40;
+			remoteInfo = KZ_AudioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		04F491FD50B13A318AFA14200CC4CF93 /* Pods-KZ_AudioConverter_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_AudioConverter_iOS-umbrella.h"; sourceTree = "<group>"; };
-		1549B481932B2362B46B656D09C64F83 /* Pods_KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_AudioConverter_iOS.framework; path = "Pods-KZ_AudioConverter_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		25D240A2C1E420DA99F5E971843CCA0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		274ED5D7D7FC55EBE9C3C50E5FD4EF17 /* Pods-KZ_AudioConverter_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		38FC7BB4BA9515DD2B474820F46FAE11 /* Pods-KZ_AudioConverter_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_AudioConverter_iOS-dummy.m"; sourceTree = "<group>"; };
-		5130E87B6EC056484051D212CF692AC4 /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		57F15FCA00E63FD39818DF25FDB44985 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		5F32471106E3C5B75EFE88B867AD0C09 /* Pods-KZ_AudioConverter_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_AudioConverter_iOS.modulemap"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80175441B7D2E24B3839AC6ABA319A47 /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_AudioPlayer_iOS.framework; path = KZ_AudioPlayer/KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
-		8381826504A838E904F4793EE41C20E5 /* Pods-KZ_AudioConverter_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB9FF87C10778DE5576F6A1B57B2255 /* Pods-KZ_AudioConverter_iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_AudioConverter_iOS-frameworks.sh"; sourceTree = "<group>"; };
-		FF25F0349FD2C9EE1815496B96E6D0F0 /* Pods-KZ_AudioConverter_iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KZ_AudioConverter_iOS-resources.sh"; sourceTree = "<group>"; };
+		02BB9B0C0C1B81DF6BCAC1830F693E08 /* Pods-KZ_AudioConverter_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_AudioConverter_iOS.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		889DE0D8D4F35A973A6ABFA35C944F4C /* Pods-KZ_AudioConverter_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_AudioPlayer.xcconfig; sourceTree = "<group>"; };
+		9BA41EB4033A0B76F035E08A915F8768 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABF142833D8C51B7FD10152BD000F79F /* Pods-KZ_AudioConverter_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1211AEBEDE78E50EF469F93F6533847 /* Pods-KZ_AudioConverter_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_AudioConverter_iOS-dummy.m"; sourceTree = "<group>"; };
+		CCB95873BDBEEEEDE4B15776329441E2 /* Pods-KZ_AudioConverter_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_AudioConverter_iOS-Info.plist"; sourceTree = "<group>"; };
+		E178A5AA16E0238DBE97AF7BC85761DA /* Pods_KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_AudioConverter_iOS.framework; path = "Pods-KZ_AudioConverter_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FCA09440F1C5D58AA6D13B62F2549D /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_AudioPlayer_iOS.framework; path = KZ_AudioPlayer/KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
+		E8706FB779ADB0BE5FA924C37A61755A /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A5D23D2BA045D83570E6998207A970 /* Pods-KZ_AudioConverter_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_AudioConverter_iOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74211AADF10E38D26DD3713B2AB24989 /* Frameworks */ = {
+		8436393113277654DB7604A4FCDF2756 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD9F448F5C48BC303F32182919FDF5A3 /* Foundation.framework in Frameworks */,
+				07AA5DE4A46803DC467D83A0A15F2B44 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		512F820C931E431D275AEF8797874069 /* Products */ = {
+		525BDE43949A67FFDED70E65E62B4B6D /* KZ_AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				1549B481932B2362B46B656D09C64F83 /* Pods_KZ_AudioConverter_iOS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D99F358E99799B210B99087BD094EA95 /* Pods */,
-				512F820C931E431D275AEF8797874069 /* Products */,
-				F84FE6223BD39A22163288CBD06A3298 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD6DE1178E538B62E4C5EA784E1BB3C2 /* Pods-KZ_AudioConverter_iOS */ = {
-			isa = PBXGroup;
-			children = (
-				25D240A2C1E420DA99F5E971843CCA0B /* Info.plist */,
-				5F32471106E3C5B75EFE88B867AD0C09 /* Pods-KZ_AudioConverter_iOS.modulemap */,
-				274ED5D7D7FC55EBE9C3C50E5FD4EF17 /* Pods-KZ_AudioConverter_iOS-acknowledgements.markdown */,
-				8381826504A838E904F4793EE41C20E5 /* Pods-KZ_AudioConverter_iOS-acknowledgements.plist */,
-				38FC7BB4BA9515DD2B474820F46FAE11 /* Pods-KZ_AudioConverter_iOS-dummy.m */,
-				9DB9FF87C10778DE5576F6A1B57B2255 /* Pods-KZ_AudioConverter_iOS-frameworks.sh */,
-				FF25F0349FD2C9EE1815496B96E6D0F0 /* Pods-KZ_AudioConverter_iOS-resources.sh */,
-				04F491FD50B13A318AFA14200CC4CF93 /* Pods-KZ_AudioConverter_iOS-umbrella.h */,
-				5130E87B6EC056484051D212CF692AC4 /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */,
-				57F15FCA00E63FD39818DF25FDB44985 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */,
-			);
-			name = "Pods-KZ_AudioConverter_iOS";
-			path = "Target Support Files/Pods-KZ_AudioConverter_iOS";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D99F358E99799B210B99087BD094EA95 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA25793EEE55D1B1F6CEFD19FBCC2C20 /* KZ_AudioPlayer */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		DBB88A0CC5C5748403F188F4CC1D8986 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				80175441B7D2E24B3839AC6ABA319A47 /* KZ_AudioPlayer_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F84FE6223BD39A22163288CBD06A3298 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BD6DE1178E538B62E4C5EA784E1BB3C2 /* Pods-KZ_AudioConverter_iOS */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FA25793EEE55D1B1F6CEFD19FBCC2C20 /* KZ_AudioPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				DBB88A0CC5C5748403F188F4CC1D8986 /* Frameworks */,
+				FD35AE9B0ECBC9C41182AF273261C1CF /* Frameworks */,
+				CEF3DEE1D638CAB0A1B5B49BD67AA60A /* Support Files */,
 			);
 			name = KZ_AudioPlayer;
 			path = KZ_AudioPlayer;
 			sourceTree = "<group>";
 		};
+		74F4B40963C6208C73ED1F75D92AB464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E178A5AA16E0238DBE97AF7BC85761DA /* Pods_KZ_AudioConverter_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CD6B184EE02B7DBE3CDDA520A76893D4 /* Pods-KZ_AudioConverter_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				02BB9B0C0C1B81DF6BCAC1830F693E08 /* Pods-KZ_AudioConverter_iOS.modulemap */,
+				ABF142833D8C51B7FD10152BD000F79F /* Pods-KZ_AudioConverter_iOS-acknowledgements.markdown */,
+				889DE0D8D4F35A973A6ABFA35C944F4C /* Pods-KZ_AudioConverter_iOS-acknowledgements.plist */,
+				B1211AEBEDE78E50EF469F93F6533847 /* Pods-KZ_AudioConverter_iOS-dummy.m */,
+				CCB95873BDBEEEEDE4B15776329441E2 /* Pods-KZ_AudioConverter_iOS-Info.plist */,
+				F1A5D23D2BA045D83570E6998207A970 /* Pods-KZ_AudioConverter_iOS-umbrella.h */,
+				E8706FB779ADB0BE5FA924C37A61755A /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */,
+				9BA41EB4033A0B76F035E08A915F8768 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */,
+			);
+			name = "Pods-KZ_AudioConverter_iOS";
+			path = "Target Support Files/Pods-KZ_AudioConverter_iOS";
+			sourceTree = "<group>";
+		};
+		CEF3DEE1D638CAB0A1B5B49BD67AA60A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KZ_AudioPlayer";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F198E47C2AFAB57F9A54FEA9C278D087 /* Pods */,
+				74F4B40963C6208C73ED1F75D92AB464 /* Products */,
+				F66404F8711F5D31C361B9FA36755108 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F198E47C2AFAB57F9A54FEA9C278D087 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				525BDE43949A67FFDED70E65E62B4B6D /* KZ_AudioPlayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F66404F8711F5D31C361B9FA36755108 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6B184EE02B7DBE3CDDA520A76893D4 /* Pods-KZ_AudioConverter_iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD35AE9B0ECBC9C41182AF273261C1CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FCA09440F1C5D58AA6D13B62F2549D /* KZ_AudioPlayer_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		87D3B5582255754E5C83D5169EF64F57 /* Headers */ = {
+		6880BF2462867666080ABA610F77C482 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DEF569B88AD995931DE712537CF4AD7 /* Pods-KZ_AudioConverter_iOS-umbrella.h in Headers */,
+				230669E5DDA94940F47846A68C10536E /* Pods-KZ_AudioConverter_iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B557CC2073B45561E24F98C40341BAF7 /* Pods-KZ_AudioConverter_iOS */ = {
+		835AA3C8A52846DAADFCCF89EA7CC8A2 /* Pods-KZ_AudioConverter_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36D529AF172BA2F2CADE8E2B9543B0A /* Build configuration list for PBXNativeTarget "Pods-KZ_AudioConverter_iOS" */;
+			buildConfigurationList = 4277C78C8B3687D9A96DF3EA30C41589 /* Build configuration list for PBXNativeTarget "Pods-KZ_AudioConverter_iOS" */;
 			buildPhases = (
-				0F1474C51A755B2AE091D427FFB1C368 /* Sources */,
-				74211AADF10E38D26DD3713B2AB24989 /* Frameworks */,
-				87D3B5582255754E5C83D5169EF64F57 /* Headers */,
+				6880BF2462867666080ABA610F77C482 /* Headers */,
+				067513F4E24225990A7F6609D803976D /* Sources */,
+				8436393113277654DB7604A4FCDF2756 /* Frameworks */,
+				523BA2E34B01569C334BD0F41BACC633 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04923EDD356F14F82036BA88C0B200D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-KZ_AudioConverter_iOS";
 			productName = "Pods-KZ_AudioConverter_iOS";
-			productReference = 1549B481932B2362B46B656D09C64F83 /* Pods_KZ_AudioConverter_iOS.framework */;
+			productReference = E178A5AA16E0238DBE97AF7BC85761DA /* Pods_KZ_AudioConverter_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 512F820C931E431D275AEF8797874069 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 74F4B40963C6208C73ED1F75D92AB464 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B557CC2073B45561E24F98C40341BAF7 /* Pods-KZ_AudioConverter_iOS */,
+				04BD26DEDB8BC4F86B86335CC8671A40 /* KZ_AudioPlayer */,
+				835AA3C8A52846DAADFCCF89EA7CC8A2 /* Pods-KZ_AudioConverter_iOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		523BA2E34B01569C334BD0F41BACC633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0F1474C51A755B2AE091D427FFB1C368 /* Sources */ = {
+		067513F4E24225990A7F6609D803976D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742779582588FFF759D977E06C0A7419 /* Pods-KZ_AudioConverter_iOS-dummy.m in Sources */,
+				AB34B8E425C7DD941A39B00C33FF8062 /* Pods-KZ_AudioConverter_iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		04923EDD356F14F82036BA88C0B200D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KZ_AudioPlayer;
+			target = 04BD26DEDB8BC4F86B86335CC8671A40 /* KZ_AudioPlayer */;
+			targetProxy = 4A27ACF13350CF1C256F3858304247BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		08F1CC8EE74559515D54FDBE809DFCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8706FB779ADB0BE5FA924C37A61755A /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1DA1704F864425C213C5CD17E168E7DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34BCFB68AA6C7C139640239D67E45225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,8 +349,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -250,18 +429,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		20808F51D76E569208B66CEDAF79CD3D /* Release */ = {
+		D6EE0D870E1A69CCE846EBB78A65F4F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57F15FCA00E63FD39818DF25FDB44985 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */;
+			baseConfigurationReference = 9BA41EB4033A0B76F035E08A915F8768 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -273,10 +455,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS.modulemap";
 				OTHER_LDFLAGS = "";
@@ -293,119 +479,37 @@
 			};
 			name = Release;
 		};
-		D274E5107187718D9E250549359D07DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5130E87B6EC056484051D212CF692AC4 /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KZ_AudioConverter_iOS/Pods-KZ_AudioConverter_iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4277C78C8B3687D9A96DF3EA30C41589 /* Build configuration list for PBXNativeTarget "Pods-KZ_AudioConverter_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				08F1CC8EE74559515D54FDBE809DFCF4 /* Debug */,
+				D6EE0D870E1A69CCE846EBB78A65F4F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36D529AF172BA2F2CADE8E2B9543B0A /* Build configuration list for PBXNativeTarget "Pods-KZ_AudioConverter_iOS" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D274E5107187718D9E250549359D07DB /* Debug */,
-				20808F51D76E569208B66CEDAF79CD3D /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E1302028EF39B490576BF90589E2C4 /* Build configuration list for PBXAggregateTarget "KZ_AudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA1704F864425C213C5CD17E168E7DC /* Debug */,
+				34BCFB68AA6C7C139640239D67E45225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
