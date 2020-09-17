@@ -37,15 +37,16 @@
 /* Begin PBXFileReference section */
 		02BB9B0C0C1B81DF6BCAC1830F693E08 /* Pods-KZ_AudioConverter_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KZ_AudioConverter_iOS.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		605E6E06B4902DD9B52B016F39C26BF9 /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_AudioPlayer_iOS.framework; path = KZ_AudioPlayer/KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
 		889DE0D8D4F35A973A6ABFA35C944F4C /* Pods-KZ_AudioConverter_iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_AudioPlayer.xcconfig; sourceTree = "<group>"; };
+		8F2613CBB02BBD2CBAE3E9EA300626FB /* KZ_AudioPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_AudioPlayer.debug.xcconfig; sourceTree = "<group>"; };
 		9BA41EB4033A0B76F035E08A915F8768 /* Pods-KZ_AudioConverter_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABF142833D8C51B7FD10152BD000F79F /* Pods-KZ_AudioConverter_iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KZ_AudioConverter_iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1211AEBEDE78E50EF469F93F6533847 /* Pods-KZ_AudioConverter_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KZ_AudioConverter_iOS-dummy.m"; sourceTree = "<group>"; };
 		CCB95873BDBEEEEDE4B15776329441E2 /* Pods-KZ_AudioConverter_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KZ_AudioConverter_iOS-Info.plist"; sourceTree = "<group>"; };
+		DC7F3C91EB91B7049AFBD34F94475BB1 /* KZ_AudioPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KZ_AudioPlayer.release.xcconfig; sourceTree = "<group>"; };
 		E178A5AA16E0238DBE97AF7BC85761DA /* Pods_KZ_AudioConverter_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KZ_AudioConverter_iOS.framework; path = "Pods-KZ_AudioConverter_iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3FCA09440F1C5D58AA6D13B62F2549D /* KZ_AudioPlayer_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KZ_AudioPlayer_iOS.framework; path = KZ_AudioPlayer/KZ_AudioPlayer_iOS.framework; sourceTree = "<group>"; };
 		E8706FB779ADB0BE5FA924C37A61755A /* Pods-KZ_AudioConverter_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KZ_AudioConverter_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F1A5D23D2BA045D83570E6998207A970 /* Pods-KZ_AudioConverter_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KZ_AudioConverter_iOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,14 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		525BDE43949A67FFDED70E65E62B4B6D /* KZ_AudioPlayer */ = {
+		22F8C6C00981486F7AEF78CD7E454A50 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD35AE9B0ECBC9C41182AF273261C1CF /* Frameworks */,
-				CEF3DEE1D638CAB0A1B5B49BD67AA60A /* Support Files */,
+				8F2613CBB02BBD2CBAE3E9EA300626FB /* KZ_AudioPlayer.debug.xcconfig */,
+				DC7F3C91EB91B7049AFBD34F94475BB1 /* KZ_AudioPlayer.release.xcconfig */,
 			);
-			name = KZ_AudioPlayer;
-			path = KZ_AudioPlayer;
+			name = "Support Files";
+			path = "../Target Support Files/KZ_AudioPlayer";
+			sourceTree = "<group>";
+		};
+		669AE2D0956AD34C1EE8E1903F7E3FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				605E6E06B4902DD9B52B016F39C26BF9 /* KZ_AudioPlayer_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		74F4B40963C6208C73ED1F75D92AB464 /* Products */ = {
@@ -78,6 +87,16 @@
 				E178A5AA16E0238DBE97AF7BC85761DA /* Pods_KZ_AudioConverter_iOS.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		76F4B26DBB82B2240995D4894487E96C /* KZ_AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				669AE2D0956AD34C1EE8E1903F7E3FF5 /* Frameworks */,
+				22F8C6C00981486F7AEF78CD7E454A50 /* Support Files */,
+			);
+			name = KZ_AudioPlayer;
+			path = KZ_AudioPlayer;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -104,15 +123,6 @@
 			path = "Target Support Files/Pods-KZ_AudioConverter_iOS";
 			sourceTree = "<group>";
 		};
-		CEF3DEE1D638CAB0A1B5B49BD67AA60A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KZ_AudioPlayer";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +145,7 @@
 		F198E47C2AFAB57F9A54FEA9C278D087 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				525BDE43949A67FFDED70E65E62B4B6D /* KZ_AudioPlayer */,
+				76F4B26DBB82B2240995D4894487E96C /* KZ_AudioPlayer */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,14 +156,6 @@
 				CD6B184EE02B7DBE3CDDA520A76893D4 /* Pods-KZ_AudioConverter_iOS */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FD35AE9B0ECBC9C41182AF273261C1CF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E3FCA09440F1C5D58AA6D13B62F2549D /* KZ_AudioPlayer_iOS.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +206,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 74F4B40963C6208C73ED1F75D92AB464 /* Products */;
@@ -284,9 +287,9 @@
 			};
 			name = Debug;
 		};
-		1DA1704F864425C213C5CD17E168E7DC /* Debug */ = {
+		1BA65B75E0E8E5A5518F70BF2F8980BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */;
+			baseConfigurationReference = 8F2613CBB02BBD2CBAE3E9EA300626FB /* KZ_AudioPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -299,23 +302,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		34BCFB68AA6C7C139640239D67E45225 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98DE08FF70F6D0C571745E99A1C7B77A /* KZ_AudioPlayer.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -374,6 +360,23 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5EC6FBECDC3F0EED4F4DBCF89789F799 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7F3C91EB91B7049AFBD34F94475BB1 /* KZ_AudioPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -503,8 +506,8 @@
 		E9E1302028EF39B490576BF90589E2C4 /* Build configuration list for PBXAggregateTarget "KZ_AudioPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1DA1704F864425C213C5CD17E168E7DC /* Debug */,
-				34BCFB68AA6C7C139640239D67E45225 /* Release */,
+				1BA65B75E0E8E5A5518F70BF2F8980BA /* Debug */,
+				5EC6FBECDC3F0EED4F4DBCF89789F799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
